@@ -13,7 +13,7 @@ public class Demo {
 			wd=new ChromeDriver();
 			wd.get("http://automationpractice.com/index.php");
 			Thread.sleep(5000);
-			
+			system.out.println("changes from nikita");
 			wd.manage().window().maximize();
 			
 			Thread.sleep(3000);
